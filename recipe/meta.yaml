@@ -15,11 +15,13 @@ requirements:
   build:
     - {{ compiler('cxx') }}
     - cmake
+    - ninja
 
 test:
   requires:
     - {{ compiler('cxx') }}
     - cmake
+    - ninja
   files:
     - test/
 

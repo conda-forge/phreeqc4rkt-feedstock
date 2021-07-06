@@ -7,5 +7,3 @@ find_package(phreeqc4rkt REQUIRED)
 add_executable(app main.cpp)
 
 target_link_libraries(app phreeqc4rkt::phreeqc4rkt)
-
-add_custom_target(execute-app COMMAND $<TARGET_FILE:app>)
