@@ -1,4 +1,4 @@
-{% set version = "3.6.2.1" %}
+{% set version = "3.6.2.2" %}
 
 package:
   name: phreeqc4rkt
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/reaktoro/phreeqc4rkt/archive/v{{ version }}.tar.gz
-  sha256: bbb86381bc01ec4376757b5c020134845de60012183906303de0b94db8427683
+  sha256: b1b81b030d051f796e82754ba979443e601a063f4b94a743b00ef4352404fa85
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
@@ -30,7 +30,7 @@ about:
   license: LGPL-2.1-only
   license_family: LGPL
   license_file: LICENSE.md
-  summary: 'phreeqc4rkt - a fork of phreeqc with minor changes to be used in Reaktoro'
+  summary: phreeqc4rkt - a fork of phreeqc with minor changes to be used in Reaktoro
   doc_url: https://github.com/reaktoro/phreeqc4rkt
   dev_url: https://github.com/reaktoro/phreeqc4rkt
 
